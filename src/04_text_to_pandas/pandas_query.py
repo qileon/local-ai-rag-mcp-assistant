@@ -5,7 +5,7 @@ import os
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 CSV_PATH = os.path.join(PROJECT_ROOT, "data", "orders.csv")
 
-# load the csv into a dataframe — think of it as an in-memory spreadsheet
+# load the csv into a dataframe. think of it as an in-memory spreadsheet
 df = pd.read_csv(CSV_PATH)
 
 question = input("Question: ")
