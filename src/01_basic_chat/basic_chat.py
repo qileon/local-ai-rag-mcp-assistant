@@ -2,7 +2,7 @@ import ollama  # this connects to the local ai model running on this machine
 
 print("Type 'exit' to quit.")
 
-# this list is our "memory" — without it, the model forgets everything after each message
+# this list is our "memory". without it, the model forgets everything after each message
 # every question and every answer gets added here, and we send the whole thing each time
 conversation = []
 
