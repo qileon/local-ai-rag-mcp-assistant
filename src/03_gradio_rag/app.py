@@ -14,7 +14,7 @@ collection = client.get_or_create_collection(name="notes")
 
 
 # this asks the model to rate, from 1 to 10, how relevant one chunk is to the question
-# this is the "reranking" step — a slower but more careful check than plain vector similarity
+# this is the "reranking" step. a slower but more careful check than plain vector similarity
 def score_relevance(question, chunk):
     prompt = f"""On a scale from 1 to 10, how relevant is the following text to answering the question below?
 Respond with only a single number, nothing else.
