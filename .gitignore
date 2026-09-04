@@ -1,0 +1,14 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+chroma_db/
+charts/
+chart_*.png
+
+.env
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

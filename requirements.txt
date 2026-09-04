@@ -1,0 +1,6 @@
+ollama
+chromadb
+gradio
+pandas
+matplotlib
+mcp
