@@ -21,7 +21,7 @@ tools = [
     }
 ]
 
-# this system message is new — it explicitly tells the model that tools are optional,
+# this system message is new. it explicitly tells the model that tools are optional,
 # not mandatory, so it doesn't assume every question must go through one
 system_message = {
     "role": "system",
